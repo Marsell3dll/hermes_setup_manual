@@ -245,7 +245,7 @@ sudo systemctl restart hermesd && journalctl -u hermesd -f
 ### You can send tokens by example
 
 ```
-strided tx ibc-transfer transfer $HERMES_STRIDE_GAIA_CHANNEL_ID \ YOUR_WALLET_ADDRESS_GAIA \ 777ustrd \  --from=STRIDE_REL_WALLET \
+strided tx ibc-transfer transfer $HERMES_STRIDE_GAIA_CHANNEL_ID \ YOUR_WALLET_ADDRESS_STRIDE \ 777ustrd \  --from=STRIDE_REL_WALLET \
   --fees 3000ustrd
 ```
 
